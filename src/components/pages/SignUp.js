@@ -64,21 +64,21 @@ class SignUp extends Component {
                 <Input
                   type="text"
                   placeholder="Full Name"
-                  iconclassName="user"
+                  iconClass="user"
                   name="fullName"
                 />
                 <div className="py-3" />
                 <Input
                   type="text"
                   placeholder="Email Address"
-                  iconclassName="envelope"
+                  iconClass="envelope"
                   name="email"
                 />
                 <div className="py-3" />
                 <Input
                   type="password"
                   placeholder="password"
-                  iconclassName="lock"
+                  iconClass="lock"
                   name="password"
                 />
                 <div className="py-3" />
@@ -93,7 +93,7 @@ class SignUp extends Component {
                 <Input
                   type="date"
                   placeholder="Age"
-                  iconclassName="calendar"
+                  iconClass="calendar"
                   name="age"
                 />
 
@@ -139,7 +139,7 @@ class SignUp extends Component {
                   type="phone"
                   placeholder="phone number"
                   name="phone"
-                  iconclassName="phone"
+                  iconClass="phone"
                 />
                 <div className="py-3" />
                 <div className="input-container">

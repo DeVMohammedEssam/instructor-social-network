@@ -8,7 +8,7 @@ const InputFiled = ({ type, iconClass, placeholder, name }) => {
         placeholder={placeholder}
         name={name}
       />
-      <i className={`fa fa-${iconClass}`} />
+      <i className={`fas fa-${iconClass}`} />
     </div>
   );
 };

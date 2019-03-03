@@ -14,14 +14,14 @@ const SignIn = props => {
             <Input
               type="text"
               placeholder="Email Address"
-              iconclassName="envelope"
+              iconClass="envelope"
               name="email"
             />
             <div className="py-3" />
             <Input
               type="password"
               placeholder="password"
-              iconclassName="lock"
+              iconClass="lock"
               name="password"
             />
             <div className="py-3" />
