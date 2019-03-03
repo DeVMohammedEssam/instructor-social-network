@@ -1,0 +1,43 @@
+.signIn {
+  color: #fff;
+  display: flex;
+  align-items: center;
+  width: 100%;
+  overflow: hidden;
+  height: 100%;
+  width: 100%;
+  padding-bottom: 200px;
+  position: fixed;
+  background-color: #ddd;
+  @include mediaQuery("lg") {
+    position: relative;
+    background-color: transparent;
+  }
+}
+
+.signIn-btn {
+  width: ptTOpx(227.51);
+}
+.signIn__form-container {
+  flex-grow: 1;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+}
+.signIn__footer {
+  bottom: 0;
+  position: fixed;
+  right: 5%;
+}
+.copy {
+  margin-right: $margin-xl * 2;
+}
+
+.signIn__footer__link {
+  color: $off-white;
+  text-decoration: none;
+}
+.signIn__footer__link:hover {
+  color: darken($off-white, 25%);
+  text-decoration: none;
+}

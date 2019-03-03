@@ -1,0 +1,153 @@
+.card{
+
+  margin-bottom:7px;
+  padding: 11px;
+  border-radius:$bd-r-md;
+}
+
+.card__charts{
+      padding:$pd-sm;
+}
+.card__analysis{
+
+  text-align:center;
+  i{
+      color:$font-secondry-color
+
+  }
+  
+}
+.card__analysis__title{
+  
+    margin:10px;
+    font-weight: 600;
+    color:$font-main-color
+  
+}
+.card__analysis__data{
+    padding:$pd-sm;
+  font-size:15px;
+  color:darken($secondry-color,30);
+}
+
+.card__rank__table__top{
+  i{
+    margin-top: 15px;
+    color:#ffc107;
+    margin-left:-15px;
+  }
+}
+
+.analyis__rank{
+ 
+  background-color:white;
+  padding:$pd-sm;
+  margin-bottom:$mg-sm;
+  border-radius:$bd-r-md;
+  height: 509px;
+  overflow: hidden;
+
+}
+
+
+/* BATHC CARD */
+
+.batch-card{
+  height:200px;
+ cursor: pointer
+}
+.batch-card__add{
+  cursor: pointer;
+  display: flex;
+    height: 100%;
+    width: 100%;
+}
+.batch-card__image{
+      width: 90px;
+    height: 90px;
+    margin: auto;
+    border-radius: 100%;
+    margin-bottom:$mg-sm
+}
+.batch-card__close-icon{
+    margin-bottom: $mg-sm;
+
+    text-align: right;
+    padding-right: 11px;
+    padding-top: 8px;
+    &:hover{
+      
+        color:red
+    }
+}
+
+/* PROFILE */
+
+.profile-card{
+    background-color: white;
+    border: 1px solid rgba(0, 0, 0, 0.125);
+    padding: 10px;
+    border-radius: 41px 41px 0px 0px;
+    text-align: center;
+    margin-bottom: 7px;
+}
+.profile-card__image{
+      border-radius: 100%;
+    padding: 10px;
+    border: 1px solid rgba(0, 0, 0, 0.125);
+    width: fit-content;
+    height: fit-content;
+    margin: auto;
+    margin-bottom: 17px;
+    margin-top: -74px;
+    background: white;
+}
+.profile-card__image__inside{
+  width: 100px;
+  border-radius: 100%
+}
+.profile-card__info__name{
+  font-weight: 600;
+  font-size: 19px;
+
+}
+.profile-card__info__pos{
+
+  font-size: 17px;
+  opacity: 0.8
+
+}
+.profile-card__info__bio{
+
+  font-size: 15px;
+  opacity: 0.5
+
+}
+.profile-main-info-card{
+  & > i{
+    opacity: 0.5
+  }
+}
+.profile-main-info-card__title{
+
+  margin-left: 10px;
+}
+
+.profile-main-info-card{
+  display: flex;
+      align-items: baseline;
+
+}
+.profile-main-info-card__text__title{
+ font-size:19px;
+}
+.profile-main-info-card__text__context{
+opacity: 0.5;
+font-size:15px;
+}
+.profile-main-info-card__icon{
+ opacity:0.5
+}
+.card--curved{
+  border-radius: 0px 0px 41px 41px
+}

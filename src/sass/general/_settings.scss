@@ -1,0 +1,10 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  overflow: auto;
+  overflow-x: hidden;
+}
+.container {
+  max-width: 90% !important;
+}

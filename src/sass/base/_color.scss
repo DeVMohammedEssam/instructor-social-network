@@ -1,0 +1,10 @@
+$main-color:#2F567D;
+$main-color-light: lighten($main-color,50);
+$main-color-light-low: lighten($main-color,20);
+
+$secondry-color:#EFEFEF;
+$secondry-color-dark:darken($secondry-color,50);
+$font-main-color:#394959;
+$font-secondry-color:darken($secondry-color,50);
+$font-secondry-color-dark:darken($secondry-color,60);
+$bd-card-color:#ced4da;

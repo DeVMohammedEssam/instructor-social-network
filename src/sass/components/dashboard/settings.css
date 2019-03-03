@@ -1,0 +1,186 @@
+/* start settings*/
+.settings
+{
+    background-color:#f9fbfd;
+    padding-top: 50px;
+    padding-left: 25%;
+    padding-right: 20%;
+    
+}
+
+.settings .container > h6
+{
+    font-size: 14px;
+    color:#c4cfe1;
+    margin-bottom: 0;
+    padding-bottom: 0;
+    
+}
+.settings h1:nth-child(2)
+{
+    margin-top: 0;
+    padding-top: 0;
+    
+}
+/*start settings options*/
+
+.settings .setings-options ul li
+{
+    padding:20px 0 20px 0;
+    color: #a2b4cf;
+    border-bottom: 2px solid #f0f5fa;
+    cursor: pointer;
+      
+}
+
+@media(max-width:695px){
+.settings .setings-options ul li
+{
+    border: none;
+}}
+.settings .setings-options ul .active
+{
+    color: #000;
+    font-weight: bold;
+    border-color:#87b3ed;
+    font-size: 20px;
+      
+}
+.settings .setings-options .line
+{
+    margin-top:-18px;
+    width: 100%;
+    height: 2px;
+    background-color:#f0f5fa;
+  
+  
+
+}
+
+/*end settings options*/
+
+/*start settings form*/
+.settings .form
+{
+    padding-top: 30px;
+    padding-bottom:30px;
+}
+.settings .form input
+{
+     -webkit-box-shadow:none;
+     -moz-box-shadow:none;
+       -o-box-shadow:none;
+    box-shadow:none;
+    
+    
+
+    
+   
+    
+}
+.settings .form .form-group h6
+{
+    color: #c4d0e1;
+    font-size:13px;
+    font-weight: bold;
+    opacity: .7;
+    
+}
+
+/*end settings  form*/
+/*start profile  option*/
+.settings .profile-options
+{ margin-bottom: 30px;
+    padding-top:50px;
+    border-top:solid 2px #f0f5fa; 
+}
+.settings .profile-options h6
+{
+    color: #070707;
+    opacity: .7;
+}
+.settings .profile-options p
+{
+    color: #b7c5da;
+}
+.settings .profile-options .choose
+{
+    margin-bottom:20px;
+}
+.rad
+{
+    width:60px;
+    
+    border-radius:25px;
+    background-color:#e3ebf6;
+    border: solid 2px #e3ebf6;
+    transition:all .3s ease-in-out;
+    
+    
+}
+
+.settings .profile-options .choose .rad .circl
+{
+    width: 25px;
+    height: 25px;
+    background-color:#fff;
+    animation: moving 5s 5 linear;
+   
+ 
+}
+.color-{
+    background-color:#2c7be5;
+    border-color: #2c7be5;
+}
+.move-
+{
+    margin-left: 30px;
+}
+
+.settings .profile-options .choose h6
+{
+    padding-left:5px;
+    color: #b7c5da;
+}
+/*end profile option*/
+
+/*start Password form*/
+.settings .password-form{
+    padding-top: 50px;
+    padding-bottom:50px;
+     border-top:solid 2px #f0f5fa; 
+}
+.settings .password-form input
+{
+     -webkit-box-shadow:none;
+     -moz-box-shadow:none;
+       -o-box-shadow:none;
+    box-shadow:none;
+    
+    
+   
+    
+}
+.settings .password-form .Password-requirements
+{
+    background-color:#EAF3FF;
+    border-radius:5%;
+    padding: 20px;
+    color: #AAC2E0;
+    margin-bottom:10px;
+    
+    
+}
+.settings .password-form .Password-requirements h6
+{
+    color: #000;
+    opacity: .7;
+}
+.settings .password-form .Password-requirements ul
+{
+    margin-top:-10px;
+}
+/*end Password form */
+
+
+

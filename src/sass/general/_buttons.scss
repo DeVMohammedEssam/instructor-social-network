@@ -1,0 +1,19 @@
+.btn--main {
+  background: $main-blue;
+  color: white;
+}
+.btn--main:hover {
+  color: #fff;
+}
+.btn--main:focus,
+.btn--main:active {
+  box-shadow: 0 0 10px $main-blue;
+}
+.btn--notification {
+  position: relative;
+  .badge {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+  }
+}

@@ -1,0 +1,29 @@
+@import "./base/_color.scss";
+@import "./base/_browser.scss";
+@import "./components/layout/_sidebar.scss";
+@import "./components/dashboard/_dashboard.scss";
+@import "./components/dashboard/_settings.scss";
+@import "./base/_buttons.scss";
+@import "./components/profile/_profile.scss";
+@import "./components/profile/_channel.scss";
+@import "./components/_nav-tabs.scss";
+@import "./base/_cards.scss";
+@import "./components/charts/_chart.scss";
+
+@import "./general/settings";
+@import "./general/functions";
+@import "./general/mixins";
+@import "./general/variables";
+
+@import "./components/reusable/navbar";
+@import "./components/reusable/inputFiled";
+@import "./general/buttons";
+@import "./general/bootstrapEdit";
+@import "./components/reusable/blueCurve";
+@import "./components/reusable/overlays";
+@import "./components/reusable/cards";
+@import "./components/pages/signIn";
+@import "./components/pages/signUp";
+
+@import "./components/courses/course";
+@import "./components/pages/home";

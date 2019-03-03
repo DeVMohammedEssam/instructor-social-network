@@ -1,0 +1,68 @@
+$pd-sm:10px;
+$pd-xs:7px;
+$pd-md:20px;
+
+//Margins
+$mg-xs:5px;
+$mg-sm:10px;
+$mg-md:20px;
+$mg-lg:45px;
+$mg-xlg:60px;
+//Raduis
+$bd-r-sm:7px;
+$bd-r-md:10px;
+$bd-card:.25rem;
+// font 
+$font-sm:1.2rem;
+$font-md:3rem;
+$font-lg:4rem;
+
+// image size
+$img-sm:45px;
+$img-xs:30px;
+
+
+//Bootstrap
+.modal-center{
+  margin:15% auto
+}
+
+.batches__errors{
+  display:none
+}
+//Usefull Extends
+%list-style-none {
+   list-style: none;
+  padding: 0px
+}
+
+%lines-before{
+
+
+  &:first-child:before{
+    content:" ";
+    border:0.5px solid $bd-card-color;
+    width:100%;
+    
+    display: block;
+  }
+  
+  &:not(:last-child):after{
+    content:" ";
+    border:0.5px solid $bd-card-color;
+    width:100%;
+    margin-top:1px;
+    margin-bottom: 1px;
+    display: block;
+  }
+}
+%lines-after{
+  &:not(:last-child):after{
+    content:" ";
+    border:0.5px solid $bd-card-color;
+    width:100%;
+    margin-top:1px;
+    margin-bottom: 1px;
+    display: block;
+  }
+}

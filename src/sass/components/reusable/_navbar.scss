@@ -1,0 +1,94 @@
+.navbar {
+  box-shadow: 0 ptTOpx(5) ptTOpx(12) rgba(#000, 0.2);
+  background-color: #fff;
+  z-index: 1;
+  position: relative;
+}
+.navbar__link-seperator {
+  display: block;
+  width: 2px;
+  height: 100%;
+  background: rgba($main-blue, 0.5);
+}
+.nav-link {
+  color: $main-blue !important;
+}
+.navbar__logo {
+  margin-right: $margin-md;
+}
+
+.nav-item:first-of-type {
+  margin-right: $margin-xs;
+}
+.nav-item:last-of-type {
+  margin-left: $margin-xs;
+}
+
+.navbar__btn {
+  border-radius: $radius-lg;
+  width: ptTOpx(174);
+  border: 1px solid $main-blue;
+  color: $main-blue;
+  @include transate(background-color color);
+}
+.navbar__btn-link--active {
+  button {
+    color: #fff;
+    background: $main-blue;
+  }
+}
+.navbar__btn:hover {
+  color: #fff;
+  background: $main-blue;
+  @include transate(background-color color);
+}
+
+.navbar__btn:first-of-type {
+  margin-right: $margin-xs;
+}
+.navbar__btn:last-of-type {
+  margin-left: $margin-xs;
+}
+.navbar-toggler:active,
+.navbar-toggler:focus {
+  outline: none;
+}
+.navbar-toggler__icon {
+  @include transate(color);
+}
+.navbar-toggler:hover {
+  .navbar-toggler__icon {
+    color: $main-blue;
+    @include transate(color);
+  }
+}
+
+.navbar__signed-options-container {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  @media screen and (min-width: 992px) {
+    justify-content: flex-end;
+  }
+  i {
+    color: $off-white;
+  }
+}
+.profile-pic {
+  width: inherit;
+  height: inherit;
+}
+.img--rounded {
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  overflow: hidden;
+}
+.navbar__profile-text {
+  font-size: 10px;
+
+  span {
+    color: #333;
+    font-size: 14px;
+  }
+}

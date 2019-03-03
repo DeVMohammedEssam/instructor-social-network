@@ -1,0 +1,36 @@
+.blue-curve {
+  max-width: 550px;
+  color: #fff;
+  flex-grow: 2;
+  display: none;
+  @include mediaQuery("lg") {
+    display: block;
+  }
+}
+.blue-curve__img {
+  float: left;
+  position: fixed;
+  height: 100%;
+  z-index: -1;
+  top: 0;
+  left: 0;
+}
+.blue-curve__text-container {
+  text-align: left;
+  margin: auto;
+  padding-left: $padding-xl * 4;
+  margin-top: $margin-xl * 4;
+}
+.blue-curve__icons-container {
+  padding-left: $padding-xl * 3;
+  display: flex;
+  justify-content: space-between;
+  margin-top: $margin-xl * 2;
+}
+.icon-container {
+  text-align: center;
+  img {
+    width: 40px;
+    height: 40px;
+  }
+}

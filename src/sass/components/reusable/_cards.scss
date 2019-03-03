@@ -1,0 +1,64 @@
+.card--custom {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  box-shadow: 0 ptTOpx(3) ptTOpx(6) rgba(#000, 0.2);
+  height: 400px;
+  .overlay {
+    right: 100%;
+
+    @include transate(position right);
+  }
+  .card__overlay__link-btn {
+    opacity: 0;
+    @include transate(opacity transform);
+    transition-delay: 0.4s;
+  }
+}
+.card--custom:hover .overlay {
+  right: 0;
+  @include transate(position right);
+}
+.card--custom:hover .card__overlay__link-btn {
+  opacity: 1;
+  @include transate(opacity transform);
+
+  transition-delay: 0.4s;
+}
+.card--custom:not(:last-of-type) {
+  margin-right: 5%;
+}
+
+.card__text-container {
+  color: darken($off-white, 20%);
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: column;
+  width: 100%;
+  padding: 0 $padding-xl $padding-xl;
+}
+
+.card__instructor-name {
+  display: block;
+  color: $gold;
+}
+.card__img-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.card__img {
+  display: block;
+  flex-grow: 1;
+  padding-bottom: $padding-lg;
+}
+@keyframes animateOverlay {
+  from {
+    right: -120%;
+  }
+  to {
+    right: 0;
+  }
+}
